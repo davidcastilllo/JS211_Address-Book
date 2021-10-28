@@ -1,0 +1,49 @@
+ *{
+box-sizing: border-box;
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+ font-size: 1.3rem;
+
+}
+
+.adb {
+ text-align: center;
+ margin-bottom: 50px;
+ font-size: 1.8rem;
+ font-weight: bold; 
+}
+
+#shell {
+ border: 3px solid black;
+ padding: 50px;
+ width: 800px;
+}
+
+.users {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin-bottom: 15px;
+ padding: 0 50px;
+}
+
+.name {
+ margin: 0 5% 0 10%;
+}
+
+.info {
+ font-size: 15px;
+}
+
+.btn {
+ font-size: 10px;
+ height: 30px;
+ width: 120px;
+ margin-right: 7%;
+}
